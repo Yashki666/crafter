@@ -22,6 +22,6 @@ class CraftLog extends Model
 
     public function player()
     {
-        return $this->belongsTo(User::class. 'player_id');
+        return $this->belongsTo(User::class, 'player_id');
     }
 }
